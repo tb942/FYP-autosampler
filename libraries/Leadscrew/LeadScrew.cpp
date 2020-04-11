@@ -1,6 +1,7 @@
 #include "LeadScrew.h"
 
 bool LeadScrew::extended_messages = false;
+const uint8_t Leadscrew::lead_positions[3] = {0, 15, 133};
 
 LeadScrew::LeadScrew(short Dir, short Step, short Ena, short Home)  // Constructor
     : BasicStepperDriver(200, Dir, Step, Ena), home_pin(Home) {     // Source from BasicStepperDriver class - set 200 steps per rotation

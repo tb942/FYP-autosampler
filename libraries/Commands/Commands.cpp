@@ -204,9 +204,9 @@ void Command::ReadFromEeprom(unsigned int address) {  // Retrieve command from E
     return;
 }
 
-void Command::SetValue(int v) { value = v; }
+void Command::SetValue(uint8_t v) { value = v; }
 
-int Command::GetValue() { return (value); }
+uint8_t Command::GetValue() { return (value); }
 
 void Command::SetType(char t) { type = t; }
 

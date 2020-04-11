@@ -42,8 +42,8 @@ class Command {
     bool GetCommandSerial();
 	void WriteToEeprom(unsigned int address);
 	void ReadFromEeprom(unsigned int address);
-    void SetValue(int v);
-    int GetValue();
+    void SetValue(uint8_t v);
+    uint8_t GetValue();
     void SetType(char t);
     char GetType();
     bool Operate();

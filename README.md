@@ -5,7 +5,7 @@
 
 
 ## Arduino firmware
-The firmware for this project is [Autosampler_firmware.ino](Arduino\Autosampler_firmware\Autosampler_firmware.ino).
+The firmware for this project is [Autosampler_firmware.ino](Arduino/Autosampler_firmware/Autosampler_firmware.ino).
 To install, place the contents of the [Arduino](Arduino) folder in your Arduino IDE's sketchbook location.
 
 ## GUI software
